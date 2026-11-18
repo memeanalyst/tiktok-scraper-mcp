@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.memeanalyst/tiktok-scraper-mcp",
+  "title": "TikTok Scraper",
+  "description": "Scrape TikTok profiles and videos \u2014 followers, views, likes and music, by Magnova",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/memeanalyst/tiktok-scraper-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/tiktok-scraper"
+    }
+  ]
+}
